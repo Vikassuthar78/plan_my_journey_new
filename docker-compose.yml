@@ -1,0 +1,45 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: pmj-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - pmj-network
+
+  backend:
+    build: ./backend
+    container_name: pmj-backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/plan_my_journey
+      - SECRET_KEY=plan-my-journey-super-secret-key-2024
+      - JWT_SECRET_KEY=jwt-super-secret-key-plan-my-journey
+      - FRONTEND_URL=http://localhost:5173
+    depends_on:
+      - mongodb
+    networks:
+      - pmj-network
+
+  frontend:
+    build: ./frontend
+    container_name: pmj-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    networks:
+      - pmj-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  pmj-network:
+    driver: bridge
