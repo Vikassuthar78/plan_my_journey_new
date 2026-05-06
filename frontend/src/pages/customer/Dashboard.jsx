@@ -26,12 +26,13 @@ const CITY_IMAGES = {
   Jaipur: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?w=480&h=320&fit=crop',
   Udaipur: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=480&h=320&fit=crop',
   Manali: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=480&h=320&fit=crop',
-  Shimla: 'https://images.unsplash.com/photo-1597074866923-dc0589150a32?w=480&h=320&fit=crop',
+  Shimla: 'https://th.bing.com/th/id/OIP.2ttZBXJxWbxyarSM87r8iAHaE8?w=253&h=180&c=7&r=0&o=7&dpr=2.5&pid=1.7&rm=3',
   Goa: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=480&h=320&fit=crop',
   Mumbai: 'https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=480&h=320&fit=crop',
   Varanasi: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=480&h=320&fit=crop',
-  Kerala: 'https://images.unsplash.com/photo-1602158123539-ee94f2e92cfa?w=480&h=320&fit=crop',
+  Kerala: 'https://th.bing.com/th/id/OIP.YJjLxGxNQ8Y9YlI1XlmZMAHaEK?w=333&h=187&c=7&r=0&o=7&dpr=2.5&pid=1.7&rm=3',
   Agra: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?w=480&h=320&fit=crop',
+  karnataka: 'https://images.unsplash.com/photo-1549887534-9e089c8ab1c0?w=480&h=320&fit=crop',
   default: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=480&h=320&fit=crop',
 };
 

@@ -19,10 +19,9 @@ const STEPS = [
   { num: 3, label: 'Attractions', icon: '🎯' },
   { num: 4, label: 'Travel', icon: '🚗' },
   { num: 5, label: 'Transport', icon: '✈️' },
-  { num: 6, label: 'Hotels', icon: '🏨' },
-  { num: 7, label: 'Itinerary', icon: '📋' },
-  { num: 8, label: 'Travelers', icon: '👥' },
-  { num: 9, label: 'Payment', icon: '💳' },
+  { num: 6, label: 'Itinerary', icon: '📋' },
+  { num: 7, label: 'Travelers', icon: '👥' },
+  { num: 8, label: 'Payment', icon: '💳' },
 ];
 
 const TRAVEL_MODES = [
@@ -287,267 +286,148 @@ export default function JourneyBuilder() {
   };
 
   // ============ STEP RENDERERS ============
+  const ImageCard = ({ title, image, isSelected, onClick, height = 160 }) => {
+  return (
+    <div
+      onClick={onClick}
+      style={{
+        borderRadius: '16px',
+        overflow: 'hidden',
+        cursor: 'pointer',
+        background: '#fff',
+        boxShadow: isSelected
+          ? '0 10px 30px rgba(0,0,0,0.15)'
+          : '0 4px 12px rgba(0,0,0,0.08)',
+        border: isSelected ? '2px solid #2d6a3f' : '1px solid #eee',
+        transition: 'all 0.3s ease',
+      }}
+      onMouseEnter={(e) =>
+        (e.currentTarget.style.transform = 'scale(1.03)')
+      }
+      onMouseLeave={(e) =>
+        (e.currentTarget.style.transform = 'scale(1)')
+      }
+    >
+      {/* IMAGE */}
+      <div style={{ height }}>
+        <img
+          src={image || 'https://source.unsplash.com/400x300/?travel'}
+          alt={title}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+          }}
+        />
+      </div>
+
+      {/* TITLE */}
+      <div
+        style={{
+          padding: '0.8rem',
+          textAlign: 'center',
+          fontWeight: 600,
+        }}
+      >
+        {title}
+      </div>
+    </div>
+  );
+};
 
   const renderStep1 = () => (
-    <div>
-      <h2 style={stepTitle}>Select Your Destination State</h2>
-      <p style={stepDesc}>Choose a state to explore amazing cities and attractions</p>
+  <div>
+    <h2 style={stepTitle}>Select a State</h2>
 
-      <div style={{ position: 'relative', marginBottom: '1.5rem' }}>
-        <FiSearch style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
-        <input
-          type="text"
-          placeholder="Search states..."
-          value={stateSearch}
-          onChange={(e) => setStateSearch(e.target.value)}
-          style={{ paddingLeft: '2.8rem', borderRadius: '14px' }}
-        />
-      </div>
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+        gap: '1rem',
+      }}
+    >
+      {filteredStates.map((state) => {
+        const isSelected = selectedState?._id === state._id;
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '0.75rem' }}>
-        {filteredStates.map((state, i) => {
-          const isSelected = selectedState?._id === state._id;
-          return (
-            <motion.div
-              key={state._id}
-              whileHover={{ scale: 1.04 }}
-              whileTap={{ scale: 0.96 }}
-              onClick={() => { setSelectedState(state); setSelectedCities([]); setSelectedAttractions({}); }}
-              style={{
-                padding: '1.2rem 0.75rem', borderRadius: '18px', cursor: 'pointer',
-                textAlign: 'center', transition: 'all 0.3s',
-                background: isSelected ? 'linear-gradient(135deg, var(--forest-600), var(--forest-500))' : '#fff',
-                color: isSelected ? '#fff' : 'var(--text-primary)',
-                border: isSelected ? '2px solid var(--forest-500)' : '2px solid var(--sand-200)',
-                boxShadow: isSelected ? '0 6px 24px rgba(56,142,60,0.25)' : 'var(--shadow-sm)',
-              }}
-            >
-              <div style={{ fontSize: '2rem', marginBottom: '0.4rem' }}>
-                {['🏔️', '🏜️', '🌊', '🌴', '🏰', '⛰️', '🌺', '🌳', '🏖️', '🦁'][i % 10]}
-              </div>
-              <div style={{ fontWeight: 600, fontSize: '0.85rem' }}>{state.name}</div>
-              <div style={{ fontSize: '0.7rem', opacity: 0.7, marginTop: '0.2rem' }}>
-                {state.cities_count || 0} cities
-              </div>
-              {isSelected && (
-                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }}
-                  style={{ marginTop: '0.4rem', display: 'flex', justifyContent: 'center' }}>
-                  <FiCheck style={{ fontSize: '1.1rem' }} />
-                </motion.div>
-              )}
-            </motion.div>
-          );
-        })}
-      </div>
+        return (
+          <ImageCard
+            key={state._id}
+            title={state.name}
+            image={state.image}
+            isSelected={isSelected}
+            onClick={() => {
+              setSelectedState(state);
+              setSelectedCities([]);
+              setSelectedAttractions({});
+            }}
+          />
+        );
+      })}
     </div>
-  );
+  </div>
+);
 
-  const renderStep2 = () => (
-    <div>
-      <h2 style={stepTitle}>Select Cities in {selectedState?.name}</h2>
-      <p style={stepDesc}>Pick one or more cities you want to visit</p>
+ const renderStep2 = () => (
+  <div>
+    <h2 style={stepTitle}>
+      Select Cities in {selectedState?.name}
+    </h2>
 
-      <div style={{ position: 'relative', marginBottom: '1.5rem' }}>
-        <FiSearch style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
-        <input
-          type="text"
-          placeholder="Search cities..."
-          value={citySearch}
-          onChange={(e) => setCitySearch(e.target.value)}
-          style={{ paddingLeft: '2.8rem', borderRadius: '14px' }}
-        />
-      </div>
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+        gap: '1rem',
+      }}
+    >
+      {filteredCities.map((city) => {
+        const isSelected = selectedCities.some(
+          (c) => c._id === city._id
+        );
 
-      {selectedCities.length > 0 && (
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1rem' }}>
-          {selectedCities.map((c) => (
-            <span key={c._id} style={{
-              background: 'var(--forest-100)', color: 'var(--forest-700)',
-              padding: '0.3rem 0.85rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 600,
-              display: 'flex', alignItems: 'center', gap: '0.3rem',
-            }}>
-              <FiMapPin style={{ fontSize: '0.75rem' }} /> {c.name}
-              <FiTrash2
-                style={{ fontSize: '0.7rem', cursor: 'pointer', marginLeft: '0.25rem' }}
-                onClick={() => toggleCity(c)}
-              />
-            </span>
-          ))}
-        </div>
-      )}
-
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 240px), 1fr))', gap: '1rem' }}>
-        {filteredCities.length === 0 && !loading ? (
-          <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', textAlign: 'center', padding: '2rem' }}>
-            {cities.length === 0 ? 'Loading cities...' : 'No cities found'}
-          </p>
-        ) : filteredCities.map((city, i) => {
-          const isSelected = selectedCities.some((c) => c._id === city._id);
-          return (
-            <motion.div
-              key={city._id}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={() => toggleCity(city)}
-              style={{
-                borderRadius: '18px', overflow: 'hidden', cursor: 'pointer',
-                border: isSelected ? '2px solid var(--forest-500)' : '2px solid transparent',
-                background: '#fff', boxShadow: isSelected ? '0 4px 20px rgba(56,142,60,0.2)' : 'var(--shadow-sm)',
-                transition: 'all 0.3s',
-              }}
-            >
-              <div style={{
-                height: '120px', background: `linear-gradient(135deg, hsl(${(i * 37) % 60 + 100}, 40%, 85%), hsl(${(i * 53) % 60 + 200}, 40%, 85%))`,
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                position: 'relative',
-              }}>
-                <span style={{ fontSize: '2.5rem' }}>🏙️</span>
-                {isSelected && (
-                  <motion.div
-                    initial={{ scale: 0 }}
-                    animate={{ scale: 1 }}
-                    style={{
-                      position: 'absolute', top: '10px', right: '10px',
-                      background: 'var(--forest-500)', color: '#fff', borderRadius: '50%',
-                      width: '28px', height: '28px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    }}
-                  >
-                    <FiCheck />
-                  </motion.div>
-                )}
-              </div>
-              <div style={{ padding: '1rem' }}>
-                <h4 style={{ fontSize: '1rem', marginBottom: '0.3rem' }}>{city.name}</h4>
-                <div style={{ display: 'flex', gap: '0.75rem', fontSize: '0.78rem', color: 'var(--text-muted)' }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                    <FiCamera /> {city.attractions_count || 0} spots
-                  </span>
-                  {city.famous_for && (
-                    <span style={{ display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                      <FiStar /> {city.famous_for}
-                    </span>
-                  )}
-                </div>
-              </div>
-            </motion.div>
-          );
-        })}
-      </div>
+        return (
+          <ImageCard
+            key={city._id}
+            title={city.name}
+            image={city.image}
+            isSelected={isSelected}
+            onClick={() => toggleCity(city)}
+          />
+        );
+      })}
     </div>
-  );
-
+  </div>
+);
   const renderStep3 = () => (
-    <div>
-      <h2 style={stepTitle}>Choose Attractions</h2>
-      <p style={stepDesc}>Select must-visit places in each city</p>
+  <div>
+    <h2 style={stepTitle}>Select Famous Places</h2>
 
-      {/* City Tabs */}
-      <div style={{ display: 'flex', gap: '0.5rem', overflowX: 'auto', marginBottom: '1.5rem', paddingBottom: '0.25rem' }}>
-        {selectedCities.map((city) => {
-          const count = (selectedAttractions[city._id] || []).length;
-          return (
-            <button
-              key={city._id}
-              onClick={() => setActiveCityTab(city._id)}
-              style={{
-                padding: '0.6rem 1.2rem', borderRadius: '12px', border: 'none',
-                background: activeCityTab === city._id ? 'var(--forest-600)' : 'var(--sand-100)',
-                color: activeCityTab === city._id ? '#fff' : 'var(--text-primary)',
-                fontWeight: 600, fontSize: '0.85rem', cursor: 'pointer', whiteSpace: 'nowrap',
-                display: 'flex', alignItems: 'center', gap: '0.4rem',
-              }}
-            >
-              {city.name}
-              {count > 0 && (
-                <span style={{
-                  background: activeCityTab === city._id ? 'rgba(255,255,255,0.3)' : 'var(--forest-100)',
-                  padding: '0.1rem 0.45rem', borderRadius: '10px', fontSize: '0.7rem',
-                }}>{count}</span>
-              )}
-            </button>
-          );
-        })}
-      </div>
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+        gap: '1rem',
+      }}
+    >
+      {(attractionsByCity[activeCityTab] || []).map((attr) => {
+        const isSelected = (selectedAttractions[activeCityTab] || []).some(
+          (a) => a._id === attr._id
+        );
 
-      {/* Cost tracker */}
-      <div style={{
-        background: 'linear-gradient(135deg, #fff3e0, #fff8e1)',
-        borderRadius: '14px', padding: '0.85rem 1.2rem', marginBottom: '1.5rem',
-        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem' }}>
-          <FiDollarSign style={{ color: 'var(--warning-500)' }} />
-          <span style={{ color: 'var(--text-secondary)' }}>Attraction Fees</span>
-        </div>
-        <span style={{ fontWeight: 700, color: 'var(--earth-700)' }}>
-          ₹{Object.values(selectedAttractions).flat().reduce((s, a) => s + (a.entry_fee || 0), 0).toLocaleString()}
-        </span>
-      </div>
-
-      {/* Attractions Grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: '1rem' }}>
-        {(attractionsByCity[activeCityTab] || []).map((attr) => {
-          const isSelected = (selectedAttractions[activeCityTab] || []).some((a) => a._id === attr._id);
-          return (
-            <motion.div
-              key={attr._id}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={() => toggleAttraction(activeCityTab, attr)}
-              style={{
-                borderRadius: '16px', padding: '1rem', cursor: 'pointer',
-                background: isSelected ? 'var(--forest-50)' : '#fff',
-                border: isSelected ? '2px solid var(--forest-400)' : '2px solid var(--sand-200)',
-                boxShadow: isSelected ? '0 4px 16px rgba(76,175,80,0.15)' : 'var(--shadow-sm)',
-                transition: 'all 0.3s',
-              }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                <h4 style={{ fontSize: '0.95rem', margin: 0 }}>{attr.name}</h4>
-                {isSelected && (
-                  <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }}>
-                    <div style={{
-                      background: 'var(--forest-500)', color: '#fff', borderRadius: '50%',
-                      width: '24px', height: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    }}>
-                      <FiCheck style={{ fontSize: '0.8rem' }} />
-                    </div>
-                  </motion.div>
-                )}
-              </div>
-              {attr.description && (
-                <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '0.5rem', lineHeight: 1.4 }}>
-                  {attr.description?.substring(0, 80)}...
-                </p>
-              )}
-              <div style={{ display: 'flex', gap: '0.75rem', fontSize: '0.78rem', color: 'var(--text-secondary)' }}>
-                {attr.entry_fee > 0 && (
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                    <MdCurrencyRupee /> ₹{attr.entry_fee}
-                  </span>
-                )}
-                {attr.visit_duration && (
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                    <MdAccessTime /> {attr.visit_duration}
-                  </span>
-                )}
-                {attr.rating && (
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '0.2rem', color: '#ffc107' }}>
-                    <FiStar style={{ fill: '#ffc107' }} /> {attr.rating}
-                  </span>
-                )}
-              </div>
-            </motion.div>
-          );
-        })}
-        {(attractionsByCity[activeCityTab] || []).length === 0 && (
-          <p style={{ color: 'var(--text-muted)', textAlign: 'center', padding: '2rem', gridColumn: '1/-1' }}>
-            Loading attractions...
-          </p>
-        )}
-      </div>
+        return (
+          <ImageCard
+            key={attr._id}
+            title={attr.name}
+            image={attr.image}
+            isSelected={isSelected}
+            onClick={() => toggleAttraction(activeCityTab, attr)}
+            height={150}
+          />
+        );
+      })}
     </div>
-  );
+  </div>
+);
 
   const renderStep4 = () => (
     <div>

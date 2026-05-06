@@ -1,0 +1,1036 @@
+[
+  {
+    "name": "Rajasthan",
+    "image": "/STATES IMAGE/RAJASTHAN_1.jpg",
+    "cities": [
+      {
+        "name": "Jaipur",
+        "image": "/STATES_CITY/RAJASTHAN/JAIPUR.jpeg",
+        "places": [
+          { "name": "Hawa Mahal(Place of Winds)", "image": "/PLACES IMAGE/JAIPUR/HAWA_MAHAL.webp" },
+          { "name": "Jaipur City Palace", "image": "/PLACES IMAGE/JAIPUR/CITY_PALACE_JAIPUR.webp" },
+          { "name": "Amer Fort", "image": "/PLACES IMAGE/JAIPUR/AMER_FORT.webp" },
+          { "name": "Jantar Mantar", "image": "/PLACES IMAGE/JAIPUR/JANTAR_MANTAR.jpg" },
+          { "name": "Nahargarh Fort", "image": "/PLACES IMAGE/JAIPUR/NAHARGARH_FORT.webp" },
+          { "name": "ALBERT Hall Museum", "image": "/PLACES IMAGE/JAIPUR/ALBERT_HALL_MUSEUM.jpg" }
+        ],
+        "hotels": [
+          { "name": "Trident Jaipur", "image": "/HOTELS IMAGE/JAIPUR/TRIDENT_HOTEL.jpg" },
+          { "name": "ITC Rajputana", "image": "/HOTELS IMAGE/JAIPUR/ITC_RAJPUTANA.jpg" },
+          { "name": "Hotel Thikana Palace", "image": "/HOTELS IMAGE/JAIPUR/HOTEL_THIKANA_PLACE.jpg" }
+        ]
+      },
+      {
+        "name": "Udaipur",
+        "image": "/STATES_CITY/RAJASTHAN/UDAIPUR.jpg",
+        "places": [
+          { "name": "Lake Pichola", "image": "/PLACES IMAGE/UDAIPUR/LAKE_PICHOLA.JPG" },
+          { "name": "Fateh Sagar Lake", "image": "/PLACES IMAGE/UDAIPUR/FATEH_SAGAR_LAKE.JPG" },
+          { "name": "City Palace", "image": "/PLACES IMAGE/UDAIPUR/UDAIPUR_CITY_PALACE.JPG" },
+          { "name": "Jagdish Temple", "image": "/PLACES IMAGE/UDAIPUR/JAGDISH_TEMPLE.JPG" },
+          { "name": "Bagore ki Haveli", "image": "/PLACES IMAGE/UDAIPUR/BAGORE_KI_HAVELI.JPG" }
+        ],
+        "hotels": [
+          { "name": "Taj Lake Palace", "image": "/HOTELS IMAGE/UDAIPUR/TAJ.AVIF" },
+          { "name": "The Leela Palace", "image": "/HOTELS IMAGE/UDAIPUR/LEELA_PALACE.JPEG" },
+          { "name": "Hotel Boheda Palace", "image": "/HOTELS IMAGE/UDAIPUR/BOHEDA_PALACE.AVIF" }
+        ]
+      },
+      {
+        "name": "Jodhpur",
+        "image": "/STATES_CITY/RAJASTHAN/JODHPUR.png",
+        "places": [
+          { "name": "Mehrangarh Fort", "image": "/PLACES IMAGE/JODHPUR/MEHRANGARH.JPG" },
+          { "name": "Old Blue City", "image": "/PLACES IMAGE/JODHPUR/OLD_BLUE_CITY.JPG" },
+          { "name": "Jaswant Thada", "image": "/PLACES IMAGE/JODHPUR/JASWANT_THADA.JPG" },
+          { "name": "Umaid Bhawan Palace Museum", "image": "/PLACES IMAGE/JODHPUR/UMAID_BHAWAN.JPG" }
+        ],
+        "hotels": [
+          { "name": "Hotel Bawarri Haveli", "image": "/HOTELS IMAGE/JODHPUR/BAWARRI_HAVELI.jpg" },
+          { "name": "The Rajputana Heritage", "image": "/HOTELS IMAGE/JODHPUR/HOTEL_RAJPUTANA.jpg" },
+          { "name": "Suraj Haveli", "image": "/HOTELS IMAGE/JODHPUR/SURAJ_HAVELI.jpg" }
+        ]
+      },
+      {
+        "name": "Jaisalmer",
+        "image": "/STATES_CITY/RAJASTHAN/JAISALMER.jpg",
+        "places": [
+          { "name": "Jaisalmer Havelis", "image": "/PLACES IMAGE/JAISALMER/JAISALMER_HAVELI.JPG" },
+          { "name": "Jaisalmer Fort", "image": "/PLACES IMAGE/JAISALMER/JAISALMER_FORT.JPG" },
+          { "name": "Thar Desert", "image": "/PLACES IMAGE/JAISALMER/THAR_DESERT.JPG" },
+          { "name": "Gadisar Lake", "image": "/PLACES IMAGE/JAISALMER/GADISAR_LAKE.JPG" },
+          { "name": "Patwon Ki Haveli", "image": "/PLACES IMAGE/JAISALMER/PATWON_KI_HAVELI.JPG" },
+          { "name": "Tanot Mata Temple", "image": "/PLACES IMAGE/JAISALMER/TANOT_MATA_TEMPLE.JPG" }
+        ],
+        "hotels": [
+          { "name": "Hotel Tokyo Palace", "image": "/HOTELS IMAGE/JAISALMER/TOKYO_PALACE.jpg" },
+          { "name": "Hotel Golden Safari", "image": "/HOTELS IMAGE/JAISALMER/GOLDEN_CAMP.AVIF" },
+          { "name": "Rajputana Desert Camp", "image": "/HOTELS IMAGE/JAISALMER/RAJPUTANA_CAMP.jpg" }
+        ]
+      },
+      {
+        "name": "PushKar",
+        "image": "/STATES_CITY/RAJASTHAN/PUSHKAR.webp",
+        "places": [
+          { "name": "PushKar Lake and Ghats", "image": "/PLACES IMAGE/PUSHKAR/PUSHKAR_LAKE.JPG" },
+          { "name": "Brahma Temple", "image": "/PLACES IMAGE/PUSHKAR/BRAHMA_TEMPLE.JPG" },
+          { "name": "Savitri Temple", "image": "/PLACES IMAGE/PUSHKAR/SAVITRI_TEMPLE.JPG" },
+          { "name": "PushKar Camel Fair", "image": "/PLACES IMAGE/PUSHKAR/CAMEL_FAIR.JPG" }
+        ],
+        "hotels": [
+          { "name": "Zostel Pushkar", "image": "/HOTELS IMAGE/PUSHKAR/ZOSTEL_HOTEL.AVIF" },
+          { "name": "Namaste India", "image": "/HOTELS IMAGE/PUSHKAR/NAMASTE_INDIA.AVIF" }
+        ]
+      },
+      {
+        "name": "Bikaner",
+        "image": "/STATES_CITY/RAJASTHAN/BIKANER.jpg",
+        "places": [
+          { "name": "Junagarh Fort", "image": "/PLACES IMAGE/BIKANNER/JUNAGARH_FORT.JPG" },
+          { "name": "Lalgarh Palace", "image": "/PLACES IMAGE/BIKANNER/LALGARH_PALACE.JPG" },
+          { "name": "Karni Mata (Temple of Rats)", "image": "/PLACES IMAGE/BIKANNER/KARNI_MATA_TEMPLE.JPG" }
+        ],
+        "hotels": [
+          { "name": "Hotel Raj Darbar", "image": "/HOTELS IMAGE/BIKANER/HOTEL_RAJ.jpg" },
+          { "name": "Hotel Bharat Niwas", "image": "/HOTELS IMAGE/BIKANER/HOTEL_BHARAT_HOTEL.WEBP" },
+          { "name": "Hotel Dev Palace Bikaner", "image": "/HOTELS IMAGE/BIKANER/HOTEL_DEV.AVIF" }
+        ]
+      },
+      {
+        "name": "Mandawa",
+        "image": "/STATES_CITY/RAJASTHAN/MANDAWA.webp",
+        "places": [
+          { "name": "Mandawa Havelis", "image": "/PLACES IMAGE/MANDAWA/MANDAWA_HAVELI.JPG" },
+          { "name": "Nawalgarh Havelis", "image": "/PLACES IMAGE/MANDAWA/NAWALGARH_HAVELI.JPG" },
+          { "name": "Fatehpur Havelis", "image": "/PLACES IMAGE/MANDAWA/FATEHPUR_HAVELI.JPG" },
+          { "name": "Mahansar Havelis", "image": "/PLACES IMAGE/MANDAWA/MAHANSAR_HAVELI.JPG" }
+        ],
+        "hotels": [
+          { "name": "The Legacy Mandawa", "image": "/HOTELS IMAGE/MANDAWA/THE_LEGACY.AVIF" },
+          { "name": "Gulab Haveli", "image": "/HOTELS IMAGE/MANDAWA/GULAB_HAVELI.AVIF" }
+        ]
+      },
+      {
+        "name": "Mount Abu",
+            "image": "/STATES_CITY/RAJASTHAN/MOUNT_ABU.webp",
+            "places": [
+          { "name": "Dilwara Temples", "image": "/PLACES IMAGE/MOUNT_ABU/DILWARA_TEMPLE.JPEG" },
+          { "name": "Nakki Lake", "image": "/PLACES IMAGE/MOUNT_ABU/NAKKI_LAKE.JPG" },
+          { "name": "Sunset Point", "image": "/PLACES IMAGE/MOUNT_ABU/SUNSET_POINT.WEBP" },
+          { "name": "Guru Shikhar", "image": "/PLACES IMAGE/MOUNT_ABU/GURU_SHIKHAR.JPG" },
+          { "name": "Achalgarh Fort", "image": "/PLACES IMAGE/MOUNT_ABU/ACHALGARH_FORT.JPG" }
+        ],
+        "hotels": [
+          { "name": "Palace Hotel(Bikaner House),A Heritage Hotel", "image": "/HOTELS IMAGE/MOUNT_ABU/PALACE_HOTEL(BIKANER).AVIF" },
+          { "name": "WelcomHeritage Connaught House", "image": "/HOTELS IMAGE/MOUNT_ABU/WELCOMHERITAGE.JPG" }
+        ]
+      },
+      {
+        "name": "Ajmer",
+        "image": "/STATES_CITY/RAJASTHAN/AJMAR.jpg",
+        "places": [
+          { "name": "Ajmer Sharif Dargah", "image": "/PLACES IMAGE/AJMAR/AJMER_SHARIF.JPEG" },
+          { "name": "Adhai Din Ka Jhonpra", "image": "/PLACES IMAGE/AJMAR/ADHAI_DIN_KA_JHONPRA.JPG" },
+          { "name": "Akbar's Palace and Museum", "image": "/PLACES IMAGE/AJMAR/AKBAR_PALACE.JPG" },
+          { "name": "Daulat Bagh Garden", "image": "/PLACES IMAGE/AJMAR/DAULAT_BAGH.AVIF" },
+          { "name": "Taragarh Fort", "image": "/PLACES IMAGE/AJMAR/TARAGARH_FORT.JPG" },
+          { "name": "Nareli Jain Temple", "image": "/PLACES IMAGE/AJMAR/NERELI_JAIN_TEMPLE.JPG" }
+        ],
+        "hotels": [
+          { "name": "Hotel Plaza Inn", "image": "/HOTELS IMAGE/AJMER/HOTEL_PLAZA_INN.JPG" },
+          { "name": "Hotel Ajmer Regency", "image": "/HOTELS IMAGE/AJMER/HOTEL_AJMER_REGENCY.AVIF" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Uttar Pradesh",
+    "image": "/STATES IMAGE/UTTAR_PRADESH_2.jpg",
+    "cities": [
+      {
+        "name": "Agra",
+        "image": "/STATES_CITY/UTTAR_PRADESH/AGRA.jpg",
+        "places": [
+          { "name": "Taj Mahal", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Agra Fort", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Itimad-ud-Daulah's Tomb", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Mehtab Bagh", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Jama Masjid", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "The Taj Vista Agra", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "The Oberoi Amarvilas Agra", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Varanasi",
+        "image": "/STATES_CITY/UTTAR_PRADESH/VARANASHI.jpg",
+        "places": [
+          { "name": "Shri Kashi Vishwanath Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Ganga Aarti", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Dashashwamedh Ghat", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Assi Ghats", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Manikarnika Ghat", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Banaras Hindu University", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Sarnath", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Ramnagar Fort", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Hotel Ananda Kashi", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "HHI Varanasi", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Lucknow",
+        "image": "/STATES_CITY/UTTAR_PRADESH/LUCKNOW.jpg",
+        "places": [
+          { "name": "Bara Imambara", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Chhota Imambara", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Rumi Darwaza", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Tomb of Saadat Ali Khan", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Satkhanda", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Ambedkar Memorial Park", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Begum Hazrat Mahal Park", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Prince of Wales Zoological Park", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Hotel Majestic Lucknow", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Nirmal Palace", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Fatehpur Sikri",
+        "image": "/STATES_CITY/UTTAR_PRADESH/FATEHPUR_SHIKRI.jpeg",
+        "places": [
+          { "name": "Buland Darwaza", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Panch Mahal", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Jama Masjid", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Birbal's Palace", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Sunehra Makan", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Turkish Sultana's Palace", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Palace of Jodha", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Diwan-i-Khas", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Hotel Vrindavan", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Hotel Goverdhan", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Mathura",
+        "image": "/STATES_CITY/UTTAR_PRADESH/MATHURA.jpg",
+        "places": [
+          { "name": "Krishna Janmasthan Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Dawarkadhish Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Vishram Ghat", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Mathura Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Kansa Qila", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Potara kund", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Prem Mandir", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Govardhan Hill", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Banke Bihari Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Hotel Guru Kripa Grand", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Hotel Radhavan", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Prayagraj",
+        "image": "/STATES_CITY/UTTAR_PRADESH/PRAYAGRAJ.WEBP",
+        "places": [
+          { "name": "Triveni Sangam", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Shri Bade Hanuman Ji Mandir", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Alopi Devi Mandir", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Akshayavat Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Mankameshwar Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Allahabad Fort", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Anand Bhavan", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+          { "name": "Khusro Bagh", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Hotel Kashi", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Hotel Kanha Shyam", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kerala",
+    "image": "/STATES IMAGE/KERLA_3.jpg",
+    "cities": [
+      {
+          "name": "Kochi",
+          "image": "/STATES_CITY/KERALA/KOCHI.JPG",
+          "places": [
+            { "name": "Fort Kochi", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Fort_Kochi_Houses.jpg" },
+            { "name": "Jem Town and Paradesi Synagogue", "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chinese_fishing_nets_in_Kochi.jpg" },
+            { "name": "Mattancherry Palace", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "St. Francis Church", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Bolgatty Palace", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Mangalavanam Bird Sanctuary", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Hill Palace Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Kerala Folklore Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Kerala Kathakali Centre", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ],
+          "hotels": [
+            { "name": "John's Residency", "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Brunton_Boatyard_Kochi.jpg" },
+            { "name": "The Wyte Fort", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ]
+        },
+        {
+          "name": "Munnar",
+          "image": "/STATES_CITY/KERALA/MUNNAR.jpg",
+          "places": [
+            { "name": "Eravikulam National Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+            { "name": "Tea Gardens", "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Munnar_Tea_Gardens.jpg" },
+            { "name": "Attukal Waterfalls", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Chinnar Wildlife Sanctuary", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Mattupetty Dam", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Kundala Lake", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Echo point", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Carmelagiri Elephant Park", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ],
+          "hotels": [
+            { "name": "Elephant Passage", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+            { "name": "The Hosteller Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ]
+        },
+        {
+          "name": "Alleppey",
+          "image": "/STATES_CITY/KERALA/ALAPPUZHA.jpg",
+          "places": [
+            { "name": "Alleppy Backwaters", "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Alleppey_backwaters.jpg" },
+            { "name": "Vembanad Lake", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Pathiramanal Island", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Alappuzha Beach", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Mararikulam Beach", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Ambalapuzha Sree Krishna Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Arthunkal Church", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Revi Karunakaran Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ],
+          "hotels": [
+            { "name": "Camelot Hotel, Alleppey", "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Alleppey_houseboat.jpg" },
+            { "name": "Alaya Stays Paloma Backwater Resort", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ]
+        },
+        {
+          "name": "Thiruvananthapuram",
+          "image": "/STATES_CITY/KERALA/THIRUVANANTHAPURAM.jpg",
+          "places": [
+            { "name": "Sree Padmanabhaswamy Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Fort_Kochi_Houses.jpg" },
+            { "name": "Kanakakunnu Palace", "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chinese_fishing_nets_in_Kochi.jpg" },
+            { "name": "Attukal Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Napier Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Kuthiramalika Palace Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Neyyar Wildlife Sanctuary", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Kovalam Beach", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ],
+          "hotels": [
+            { "name": "Hotel Horizon", "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Brunton_Boatyard_Kochi.jpg" },
+            { "name": "Crand Chaithram KTDC", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ]
+        },
+        {
+          "name": "Varkala",
+          "image": "/STATES_CITY/KERALA/VARKALA.jpg",
+          "places": [
+            { "name": "Varkala Beach", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Fort_Kochi_Houses.jpg" },
+            { "name": "Varkala Cliff", "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chinese_fishing_nets_in_Kochi.jpg" },
+            { "name": "Thiruvambaby Beach", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Edawa Beach", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Janardhana Swamy Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Sivagiri Mutt", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Anjengo Fort", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Jatayu Earth Center", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Kappil Lake", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ],
+          "hotels": [
+            { "name": "Black Beach Resort", "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Brunton_Boatyard_Kochi.jpg" },
+            { "name": "Hope Hostel, by the Sea", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ]
+        },
+        {
+          "name": "Vagamon",
+          "image": "/STATES_CITY/KERALA/VAGAMON.jpg",
+          "places": [
+            { "name": "Vagamon Meadows", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Fort_Kochi_Houses.jpg" },
+            { "name": "Pine Forest", "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chinese_fishing_nets_in_Kochi.jpg" },
+            { "name": "Vagamon Falls", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Thangal Hill", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Mundakayam Ghat", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Vagamon Adventure Park", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ],
+          "hotels": [
+            { "name": "Woods Vagamon", "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Brunton_Boatyard_Kochi.jpg" },
+            { "name": "Kaduvakanam Cottage", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+          ]
+        }
+    ]
+  },
+  {
+    "name": "Tamil Nadu",
+    "image": "/STATES IMAGE/TAMIL_NADU_4.jpg",
+    "cities": [
+      {
+        "name": "Chennai",
+        "image": "/STATES_CITY/TAMIL_NADU/CHENNAI.jpg",
+        "places": [
+          { "name": "Marina Beach", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Fort St. George", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" },
+            { "name": "Kapaleeshwarar Temple", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Santhome Cathedral Basilica", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Guindy National Park", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "DakshinaChitra", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" },
+            { "name": "Valluvar Kottam", "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mattancherry_Palace.jpg" }
+        ],
+        "hotels": [
+          { "name": "Hablis", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "UPAR T Nagar", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Madurai",
+        "image": "/STATES_CITY/TAMIL_NADU/MADURAI.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Coimbatore",
+        "image": "/STATES_CITY/TAMIL_NADU/COIMBATORE.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Mahabalipuram",
+        "image": "/STATES_CITY/TAMIL_NADU/Mahabalipuram.jpeg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Thanjavur",
+        "image": "/STATES_CITY/TAMIL_NADU/Thanjavur.jpeg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Ooty",
+        "image": "/STATES_CITY/TAMIL_NADU/Ooty.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Kodaikanal",
+        "image": "/STATES_CITY/TAMIL_NADU/Kodaikanal.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Kanyakumari",
+        "image": "/STATES_CITY/TAMIL_NADU/Kanyakumari.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Karnataka",
+    "image": "/STATES IMAGE/KARNATAKA_5.jpg",
+    "cities": [
+      {
+        "name": "Mysore",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Bengaluru",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Hampi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Coorg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Badami",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Gokarna",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Maharashtra",
+    "image": "/STATES IMAGE/MAHARASHTRA_6.jpg",
+    "cities": [
+      {
+        "name": "Mumbai",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Pune",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Lonavala",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Nagpur",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Aurangabad",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Goa",
+    "image": "/STATES IMAGE/GOA_7.jpg",
+    "cities": [
+      {
+        "name": "Panaji",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Vasco da Gama",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Margao",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Punjab",
+    "image": "/STATES IMAGE/PUNJAB_8.jpg",
+    "cities": [
+      {
+        "name": "Amritsar",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Ludhiana",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Chandigarh",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Pathankot",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Kapurthala",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Hoshiarpur",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Andhra Pradesh",
+    "image": "/STATES IMAGE/ANDHRA_PRADESH_9.jpg",
+    "cities": [
+      {
+        "name": "Visakhapatnam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Tirupati",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Vijayawada",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Srisailam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Nellore",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Delhi",
+    "image": "/STATES IMAGE/DELHI_10.jpg",
+    "cities": [
+      {
+        "name": "Delhi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Telangana",
+    "image": "/STATES IMAGE/TELANGANA_11.jpg",
+    "cities": [
+      {
+        "name": "Hyderabad",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jammu and Kashmir",
+    "image": "/STATES IMAGE/JAMMU_KASHMIR_12.jpg",
+    "cities": [
+      {
+        "name": "Srinagar",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Gulmarg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Jammu",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "PahalGam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Leh",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Katra",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Sonamarg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "BhaderWah",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Munnar_hills.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gujarat",
+    "image": "/STATES IMAGE/GUJARAT_13.jpg",
+    "cities": [
+      {
+        "name": "Ahmedabad",
+        "image": "/STATES_CITY/GUJARAT/Ahmedabad.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Kutch",
+        "image": "/STATES_CITY/GUJARAT/Kutch.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Dwarka",
+        "image": "/STATES_CITY/GUJARAT/Dwarka.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Vadodara",
+        "image": "/STATES_CITY/GUJARAT/Vadodara.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Surat",
+        "image": "/STATES_CITY/GUJARAT/Surat.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Somnath",
+        "image": "/STATES_CITY/GUJARAT/Somnath.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      },
+      {
+        "name": "Rajkot",
+        "image": "/STATES_CITY/GUJARAT/Rajkot.jpg",
+        "places": [
+          { "name": "Eravikulam Park", "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Eravikulam_National_Park.jpg" },
+          { "name": "Tea Museum", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tata_Tea_Museum_Munnar.jpg" }
+        ],
+        "hotels": [
+          { "name": "Tea County Munnar", "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Munnar_Hotel_View.jpg" },
+          { "name": "Windermere Estate", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Windermere_Estate.jpg" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed": "#dae2fd",
+                    "on-tertiary-fixed": "#191c1e",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container": "#e5eeff",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "tertiary": "#000000",
+                    "surface-bright": "#f8f9ff",
+                    "on-secondary-container": "#006f66",
+                    "inverse-on-surface": "#eaf1ff",
+                    "on-tertiary-fixed-variant": "#444749",
+                    "surface-variant": "#d3e4fe",
+                    "primary-container": "#131b2e",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#e0e3e5",
+                    "primary": "#000000",
+                    "on-primary": "#ffffff",
+                    "error": "#ba1a1a",
+                    "surface-tint": "#565e74",
+                    "surface-container-high": "#dce9ff",
+                    "secondary-container": "#86f2e4",
+                    "on-tertiary-container": "#818486",
+                    "surface-container-highest": "#d3e4fe",
+                    "on-surface-variant": "#45464d",
+                    "on-secondary-fixed-variant": "#005049",
+                    "secondary-fixed-dim": "#6bd8cb",
+                    "tertiary-fixed-dim": "#c4c7c9",
+                    "primary-fixed-dim": "#bec6e0",
+                    "on-surface": "#0b1c30",
+                    "secondary": "#006a61",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "inverse-primary": "#bec6e0",
+                    "surface-dim": "#cbdbf5",
+                    "inverse-surface": "#213145",
+                    "secondary-fixed": "#89f5e7",
+                    "surface-container-low": "#eff4ff",
+                    "surface": "#f8f9ff",
+                    "on-secondary-fixed": "#00201d",
+                    "on-primary-fixed": "#131b2e",
+                    "background": "#f8f9ff",
+                    "outline-variant": "#c6c6cd",
+                    "outline": "#76777d",
+                    "on-primary-container": "#7c839b",
+                    "on-background": "#0b1c30",
+                    "tertiary-container": "#191c1e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "64px",
+                    "md": "24px",
+                    "xs": "8px",
+                    "gutter": "24px",
+                    "margin": "32px",
+                    "max_width": "1280px",
+                    "base": "4px",
+                    "sm": "16px",
+                    "lg": "40px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Plus Jakarta Sans"],
+                    "body-md": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "headline-md": ["Plus Jakarta Sans"],
+                    "display-xl": ["Plus Jakarta Sans"],
+                    "label-sm": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "display-xl": ["48px", {"lineHeight": "1.1", "fontWeight": "700"}],
+                    "label-sm": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.02em", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-[0_4px_20px_rgba(15,23,42,0.05)] font-['Plus_Jakarta_Sans']">
+<div class="max-w-[1280px] mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tight text-slate-900">VoyageCurator</span>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-teal-600 font-semibold border-b-2 border-teal-600 h-16 flex items-center" href="#">Home</a>
+<a class="text-slate-600 hover:text-slate-900 transition-colors duration-200 h-16 flex items-center" href="#">Packages</a>
+<a class="text-slate-600 hover:text-slate-900 transition-colors duration-200 h-16 flex items-center" href="#">About</a>
+<a class="text-slate-600 hover:text-slate-900 transition-colors duration-200 h-16 flex items-center" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="px-4 py-2 text-slate-600 font-medium hover:bg-slate-50 transition-colors rounded-lg">Sign In</button>
+<button class="px-5 py-2 bg-secondary text-on-secondary font-semibold rounded-lg active:scale-95 transition-transform">Create Account</button>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative h-[921px] min-h-[700px] flex items-center justify-center pt-16 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A breathtaking view of the Taj Mahal at dawn, with soft golden sunlight illuminating the white marble and a light morning mist over the Yamuna River. The scene is peaceful and serene, capturing the high-end travel aesthetic of VoyageCurator with warm color grading and expansive space. The lighting is ethereal and soft, reflecting a premium boutique travel experience." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9iPEUvdQzgLkLa-hxA1gh68-sPw1HuB4nEIc7152jQ3nVQaA8vfcYbPdY92mjaU2e1bNmL7alPpPKfcUDeHWHXX8JIpTyzQrCTuU-uggpQBriM_HPxs2bQbb2vcUmGookPewRv7qB6-ZUGyDIhb4W-dMKi9Vs5zMR6oJVH-hUOdjoyF2eH9jVaotxgQ98QqknMFNJsJH33pBTaBf82RKZHe_7ysayfvVPXFrVUa52ka5cviVi1mX0VjDD_nsNh77efvqcnN_lZoj2"/>
+<div class="absolute inset-0 bg-slate-900/40"></div>
+</div>
+<div class="relative z-10 max-w-[1280px] mx-auto px-6 w-full flex flex-col items-center text-center">
+<h1 class="font-display-xl text-display-xl text-white mb-6 drop-shadow-lg">Curated Journeys for the Discerning Traveler.</h1>
+<p class="font-body-lg text-body-lg text-white/90 max-w-2xl mb-12 drop-shadow-md">Discover the soul of India through bespoke itineraries that blend logistical efficiency with emotional discovery.</p>
+<!-- Search Bar -->
+<div class="w-full max-w-4xl bg-white p-4 md:p-2 rounded-2xl shadow-2xl flex flex-col md:flex-row gap-2 items-center">
+<div class="flex-1 w-full flex items-center gap-3 px-4 py-3 border-b md:border-b-0 md:border-r border-slate-100">
+<span class="material-symbols-outlined text-teal-600" data-icon="location_on">location_on</span>
+<div class="text-left">
+<label class="block text-[10px] uppercase font-bold text-slate-400">Destination</label>
+<input class="w-full border-none p-0 text-slate-900 font-medium focus:ring-0 placeholder:text-slate-300" placeholder="Where to?" type="text"/>
+</div>
+</div>
+<div class="flex-1 w-full flex items-center gap-3 px-4 py-3 border-b md:border-b-0 md:border-r border-slate-100">
+<span class="material-symbols-outlined text-teal-600" data-icon="calendar_month">calendar_month</span>
+<div class="text-left">
+<label class="block text-[10px] uppercase font-bold text-slate-400">Dates</label>
+<input class="w-full border-none p-0 text-slate-900 font-medium focus:ring-0 placeholder:text-slate-300" placeholder="Add dates" type="text"/>
+</div>
+</div>
+<div class="flex-1 w-full flex items-center gap-3 px-4 py-3 border-b md:border-b-0 md:border-r border-slate-100">
+<span class="material-symbols-outlined text-teal-600" data-icon="group">group</span>
+<div class="text-left">
+<label class="block text-[10px] uppercase font-bold text-slate-400">Travelers</label>
+<input class="w-full border-none p-0 text-slate-900 font-medium focus:ring-0 placeholder:text-slate-300" placeholder="2 Adults" type="text"/>
+</div>
+</div>
+<button class="w-full md:w-auto px-8 py-4 bg-secondary text-on-secondary font-bold rounded-xl active:scale-95 transition-all shadow-lg shadow-teal-600/20">
+                        Search
+                    </button>
+</div>
+<div class="mt-12">
+<button class="px-8 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white font-semibold rounded-full hover:bg-white/20 transition-all">
+                        Create Your Journey
+                    </button>
+</div>
+</div>
+</section>
+<!-- Featured Destinations -->
+<section class="py-xl bg-surface-bright">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="flex justify-between items-end mb-12">
+<div>
+<span class="text-secondary font-semibold tracking-wider uppercase text-xs">Exclusives</span>
+<h2 class="font-headline-lg text-headline-lg mt-2">Featured Destinations</h2>
+</div>
+<a class="text-teal-600 font-medium flex items-center gap-2 hover:underline" href="#">View all destinations <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span></a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Kerala Card -->
+<div class="group relative overflow-hidden rounded-3xl bg-white shadow-[0_10px_40px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-2">
+<div class="h-80 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A tranquil scene of a luxury houseboat floating on the backwaters of Kerala during the golden hour. The water is calm, reflecting the vibrant green of the coconut palms along the shore. The atmosphere is quiet and indulgent, with the warm light enhancing the rich wooden textures of the boat. A perfect example of serene, boutique travel photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxJL_4Me2kak7WCKFwd4uGJQHBMshE3DWJ1lLQ4OREgEDOtGD8qKxDu3IdcVvUXec_qaIOFujBV9qFiRT63P4jIHzOxXhZreRZQnq2LE6qX3AVJAwZON6DGQOFbZz2Ot7_O0RAoOcItBsSPsV7HPxjQTLTy6goGQnTTW1hIvYK4TvgZyLAJ_X3Bda0V9qNOrxCQXE8xg3Y7kYsYpM11IImcsQUzw1L0QvTYtJy--l_1lUV8y-OkgcXashkdjJVVXg-RKlcwb1GwQ_L"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-slate-900">Kerala</h3>
+<p class="text-slate-500 font-label-sm text-label-sm">The Backwater Serenity</p>
+</div>
+<div class="bg-slate-100 px-3 py-1 rounded-full text-slate-700 font-label-sm text-xs">All-Inclusive</div>
+</div>
+<div class="flex items-center justify-between border-t border-slate-50 pt-4">
+<span class="text-teal-600 font-bold text-lg">From $1,200</span>
+<button class="p-2 rounded-full border border-slate-200 text-slate-400 hover:text-teal-600 hover:border-teal-600 transition-colors">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Rajasthan Card -->
+<div class="group relative overflow-hidden rounded-3xl bg-white shadow-[0_10px_40px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-2">
+<div class="h-80 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="The majestic sandstone architecture of Jaipur, the Pink City, under a clear azure sky. Intricate stone carvings and arched windows of a heritage palace are highlighted by high-contrast daylight, creating deep shadows and brilliant highlights. The mood is royal and historic, conveying a sense of curated reliability and premium discovery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcx_buiNO4c0vtF74hsl9RGlYRTxBh3cBbecV8FvK90RWnaybJpsfodMsH6MGwC2NU-sxLsdyUY27u4T8b3O24WvA2wVoojE3DeWYGbxh1VbseeCdtexnwx6Z4SnSiQMj9XA4Z3NEIV1xe8IQqY107muFVEmCRZeHp6AFgNYu3a4bMc1BhOO5Gd4fdCnQ7GSZtesWavpizVf6_R_IwIT7Q1_rxOpE6ujqp8jg8DIxbZefCISo56GrMl-zp3Asfkw_-mOMqI28acSCb"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-slate-900">Rajasthan</h3>
+<p class="text-slate-500 font-label-sm text-label-sm">Royal Heritage Trail</p>
+</div>
+<div class="bg-slate-100 px-3 py-1 rounded-full text-slate-700 font-label-sm text-xs">Cultural</div>
+</div>
+<div class="flex items-center justify-between border-t border-slate-50 pt-4">
+<span class="text-teal-600 font-bold text-lg">From $1,850</span>
+<button class="p-2 rounded-full border border-slate-200 text-slate-400 hover:text-teal-600 hover:border-teal-600 transition-colors">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Himachal Card -->
+<div class="group relative overflow-hidden rounded-3xl bg-white shadow-[0_10px_40px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-2">
+<div class="h-80 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Expansive views of snow-capped Himalayan peaks in Himachal Pradesh, with a foreground of lush pine forests and a winding mountain road. The lighting is crisp and cool, with a vast, open atmosphere that evokes a sense of freedom and discovery. The palette is dominated by deep greens, pristine whites, and bright blues, matching a minimalist, premium aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6A5T_VV2BvpJ2MC1gb4T91y2RQ7HZS3TXsZbo2V_FiVA-QkU5N-IBdXbOaWqk15gi8LOp2ND7LooQ0GsQfQEcbPZmHdQdaLi4v011aH-mKbQF4tLfxeOUAc0UTjjVT_LftYlfxsrb7es08jIBxzk7cKIQui67s1WidoGMgz95-Y_NACSIPSbiRw-4NriI5uP8pTQHt5kZz9fXkl7HTqgYhYHRJC0guseG7HEq4-sHboPvxLkiHjOlXKvdz7nBja3YvtPVOD6d9Lhm"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-slate-900">Himachal</h3>
+<p class="text-slate-500 font-label-sm text-label-sm">Himalayan Escape</p>
+</div>
+<div class="bg-slate-100 px-3 py-1 rounded-full text-slate-700 font-label-sm text-xs">Adventure</div>
+</div>
+<div class="flex items-center justify-between border-t border-slate-50 pt-4">
+<span class="text-teal-600 font-bold text-lg">From $950</span>
+<button class="p-2 rounded-full border border-slate-200 text-slate-400 hover:text-teal-600 hover:border-teal-600 transition-colors">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How it Works -->
+<section class="py-xl bg-white relative overflow-hidden">
+<div class="absolute top-0 right-0 w-96 h-96 bg-teal-50 rounded-full blur-[100px] -mr-48 -mt-48 opacity-50"></div>
+<div class="max-w-[1280px] mx-auto px-6 relative z-10">
+<div class="text-center mb-xl">
+<span class="text-teal-600 font-semibold tracking-wider uppercase text-xs">Process</span>
+<h2 class="font-headline-lg text-headline-lg mt-2">How it Works</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="text-center group">
+<div class="w-20 h-20 bg-slate-50 rounded-3xl flex items-center justify-center mx-auto mb-8 transition-all group-hover:bg-teal-600 group-hover:shadow-lg group-hover:shadow-teal-600/20">
+<span class="material-symbols-outlined text-4xl text-teal-600 group-hover:text-white" data-icon="auto_awesome">auto_awesome</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Dream</h3>
+<p class="text-slate-600 font-body-md">Tell us your travel aspirations, from the landscape to the level of luxury you desire.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 bg-slate-50 rounded-3xl flex items-center justify-center mx-auto mb-8 transition-all group-hover:bg-teal-600 group-hover:shadow-lg group-hover:shadow-teal-600/20">
+<span class="material-symbols-outlined text-4xl text-teal-600 group-hover:text-white" data-icon="map">map</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Plan</h3>
+<p class="text-slate-600 font-body-md">Our curators design a logistics-first itinerary that leaves plenty of room for organic discovery.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 bg-slate-50 rounded-3xl flex items-center justify-center mx-auto mb-8 transition-all group-hover:bg-teal-600 group-hover:shadow-lg group-hover:shadow-teal-600/20">
+<span class="material-symbols-outlined text-4xl text-teal-600 group-hover:text-white" data-icon="spa">spa</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Relax</h3>
+<p class="text-slate-600 font-body-md">Travel with total peace of mind, backed by our 24/7 reliability support throughout your trip.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-xl bg-slate-900 text-white overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-xl items-center">
+<div>
+<span class="text-teal-400 font-semibold tracking-wider uppercase text-xs">Experiences</span>
+<h2 class="font-headline-lg text-headline-lg text-white mt-4 mb-8">What our discerning travelers say.</h2>
+<div class="space-y-8">
+<div class="flex gap-4 p-6 bg-white/5 rounded-2xl border border-white/10">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="A portrait of a professional woman in her late 30s, looking confident and relaxed. The lighting is soft and studio-quality, emphasizing a professional yet approachable tone. The background is a clean, out-of-focus urban environment, fitting the high-end, corporate modern aesthetic of the brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB-0MTM751hDCsnT1err7Y1DhbKAIYFiAlKVGOEOCzNHkDo-HJqxqrRx1Txl8pK9_oBZv1A3wqMjCF8LJ8CSTaYrZwxXfVWxulK1uWDYPE9-l4T2gU0OxwBZLww0WhP5CypwOcdxHrmEGW6KHgZiHuVMn3hqGCLuTve3kWih5yEmHESTnUFSGhthM8--AoekqgUal5L9sU3bwPkIkYrEhse6DyBjFjUKqA8lBPknYUzhCX2lUGaSKmokx_chxpy5NiRl1ByB_CEof_"/>
+<div>
+<p class="font-body-md italic text-white/80 mb-4">"The itinerary was seamless. VoyageCurator balanced the chaos of Indian markets with the absolute serenity of boutique stays perfectly."</p>
+<p class="font-bold text-teal-400">Eleanor Shellstrop</p>
+<p class="text-xs text-white/40">Travelled to Rajasthan, 2023</p>
+</div>
+</div>
+<div class="flex gap-4 p-6 bg-white/5 rounded-2xl border border-white/10">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="A portrait of a sophisticated man in his 40s with a warm smile, wearing a casual linen shirt. The image is captured in natural, diffused daylight, highlighting authentic character and reliability. The setting feels premium and intentional, consistent with the boutique travel experience." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6-hsAXVeHcrMEXQUb1RqPhyrkh7qD4hqQ7c7SUru1WK4GTFsAD4ov8LQp5ROCNWUCi9YOwS0s5DI8dOwOzkHDGI1VBQL3A5DicbMs14PVx9i3NOGuv1CvmkZe0TUgYsVQBcbT2mJm4H6qrl3VKrDBhpJWrM2dGMaUOvVUZ69XYUQXQXdY73rBy2wtS5lNxwWKmeoNWLQ6uY4bpmQ-Cdt1NgmTo5Sir4bXMEibN-BLcTQp_qhxs24F5n3Z0UoaP17Vtl6qXgcPJz_4"/>
+<div>
+<p class="font-body-md italic text-white/80 mb-4">"Logistical perfection. I never had to worry about a transfer or a booking. It felt like traveling with a trusted friend who knew all the secrets."</p>
+<p class="font-bold text-teal-400">Marcus Wright</p>
+<p class="text-xs text-white/40">Travelled to Kerala, 2024</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative hidden lg:block">
+<div class="aspect-square bg-gradient-to-tr from-teal-600 to-slate-800 rounded-3xl overflow-hidden relative shadow-2xl">
+<img class="w-full h-full object-cover opacity-60" data-alt="A candid, high-end photograph of a couple enjoying dinner on a private balcony overlooking a historic Indian fort at night. The table is lit by candles, creating a warm, intimate glow against the deep blue night sky. The setting is luxurious and exclusive, perfectly illustrating the emotional resonance and boutique nature of VoyageCurator's services." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUdqDfTZXzxuajjJmZRSE83JAiuDJ6YuJONV3jMvHoY-UJq-kdLVhvm4aTP7cHk6Ug1IiMDtcwxFDOBA8X37aNXTsKViGIKwtuj4SSUwSFQbF8fP2WN0kROEPLTWYRfapKwcp7vsjYho86M1LwJRYpWiAhBbOqT63doUhhReM8U2-TdHxtA_dVQkK413ft2Wnjrw2kPjTs71ftsnbYGGwpXu7OT-sQQwKE0B102eHurilCRqXZQ8VWENfpPvZ55ycvFvROdtB52p_n"/>
+<div class="absolute inset-0 p-12 flex flex-col justify-end">
+<div class="glass-effect p-8 rounded-2xl border border-white/20">
+<div class="flex gap-1 text-teal-400 mb-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<h4 class="text-slate-900 font-bold text-xl">1,200+ Journeys Curated</h4>
+<p class="text-slate-600">With a 98% satisfaction rate across the globe.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 border-t border-slate-200 w-full py-12 px-6 mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-[1280px] mx-auto">
+<div class="space-y-4">
+<span class="text-lg font-bold text-slate-800">VoyageCurator</span>
+<p class="font-['Plus_Jakarta_Sans'] text-sm text-slate-500">Curated Reliability for the Discerning Traveler.</p>
+<div class="flex gap-4">
+<a class="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center hover:bg-teal-600 hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="public">public</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-slate-800 mb-4">Company</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">About Us</a></li>
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Our Curators</a></li>
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Sustainability</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-800 mb-4">Support</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Help Center</a></li>
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Contact Support</a></li>
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Safety Guidelines</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-800 mb-4">Legal</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Terms of Service</a></li>
+<li><a class="text-slate-500 hover:text-teal-600 underline-offset-4 hover:underline transition-colors text-sm" href="#">Cookie Settings</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1280px] mx-auto mt-12 pt-8 border-t border-slate-200">
+<p class="font-['Plus_Jakarta_Sans'] text-sm text-slate-500 text-center">© 2024 VoyageCurator. Curated Reliability for the Discerning Traveler.</p>
+</div>
+</footer>
+</body></html>
